@@ -1,0 +1,27 @@
+{
+  "name": "planestrike",
+  "version": "1.0.0",
+  "description": "an interactive game for Google Home, powered by machine learning",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "convnetjs": "^0.3.0",
+    "dashbot": "~0.8.2",
+    "express": "^4.14.0",
+    "jsonfile": "^2.4.0",
+    "math": "^0.0.3",
+    "mathjs": "^3.7.0",
+    "voicelabs-assistant-sdk": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "voice game",
+    "machine learning"
+  ],
+  "author": "Wei Wei",
+  "license": "ISC"
+}
